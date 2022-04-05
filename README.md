@@ -9,4 +9,4 @@ HTMLタグの検出については、python標準ライブラリに含まれるr
 https://docs.python.org/ja/3/library/re.html
 [2] [Python]文字列内のhtmlタグを除去する
 https://yyuuiikk.org/entry/703
-[3] 
+
