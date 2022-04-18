@@ -13,6 +13,10 @@ for file in files:
     reg_obj = re.compile(r"<[^>]*?>")
     
     data_lines = reg_obj.sub("",data_lines)    
+    """
+    # if you can't elminate tags, please try these codes;
+    data_lines = data_lines.replace("<*>","")
+    """
     data_lines = data_lines.replace("\n","") # eliminate line feed code
     
     re_file = file.replace('path','path_re2') # change directory for save doc
